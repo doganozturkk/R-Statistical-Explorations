@@ -1,0 +1,33 @@
+---
+title: "R Statistical Explorations"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+# Distribution Simulation
+
+```{r distribution}
+source('../analysis/distribution_simulation.R')
+```
+
+# Central Limit Theorem
+
+```{r clt}
+source('../analysis/central_limit_theorem.R')
+```
+
+# Correlation Experiments
+
+```{r correlation}
+source('../analysis/correlation_experiment.R')
+```
+
+# Outlier Effects
+
+```{r outliers}
+source('../analysis/outlier_effects.R')
+```
